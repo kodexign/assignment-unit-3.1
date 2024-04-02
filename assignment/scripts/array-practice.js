@@ -19,13 +19,13 @@ console.log('Favorite foods are: ', favoriteFoods);
 console.log('--- 2. Length of an array ---');
 
 // Example: How many animals are in the array?
-let numberOfAnimals = animalArray.length // 👈 Using the .length property!
+let numberOfAnimals = animalArray.length; // 👈 Using the .length property!
 console.log('Number of animals:', numberOfAnimals);
 
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-let numberOfFoods = favoriteFoods.length // ?? is there a reason why we don't need a semicolon at the end of this
+let numberOfFoods = favoriteFoods.length; // should add semicolin, but will not break code without it
 console.log('Number of Foods: ', numberOfFoods)
 
 // Accessing array items
@@ -39,6 +39,9 @@ console.log('First animal is', firstAnimal);
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
+
+let secondAnimal = animalArray[1];
+console.log( 'Second animal is', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
