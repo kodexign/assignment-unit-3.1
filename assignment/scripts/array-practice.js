@@ -157,6 +157,9 @@ console.log(gemString);
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
+let colorfulGems = [...gems, ...colors];
+console.log(colorfulGems)
+
 
 
 
