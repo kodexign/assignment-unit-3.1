@@ -87,6 +87,10 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
 
+let entree = 'Eggrolls';
+favoriteFoods.unshift(entree);
+console.log(`Add entree to beginning: ${favoriteFoods}`);
+console.table(favoriteFoods);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
