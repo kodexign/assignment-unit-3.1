@@ -147,6 +147,7 @@ console.log(sortGemsReverse);
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
 
+// notes: variable = arrayName.join(' insert what you want in between');
 let gemString = gems.join(' and ');
 console.log(gemString);
 
@@ -157,11 +158,26 @@ console.log(gemString);
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
+// notes: 
+// merge using the- 
+//Spread Operator: variable = [... array1, ... array2];
 let colorfulGems = [...gems, ...colors];
 console.log(colorfulGems)
 
+//Concat Method: array.concat(array2, array3, arrayN)
+//functional way to merge
+let conColorfulGems = gems.concat(colors);
+console.log('this is concat method: ', conColorfulGems);
 
+// another concat form: newArray = [].concat(array1,array2);
+let newColorfulGems = [].concat(gems, colors);
+console.log('this is the other concat form: ', newColorfulGems);
 
+//possible to do an array.push() method if
+//you want to add anarray to an existing array without creating a new array of the two combined
+//represented by (...array#)
+//  i.e: gems.push(...colors);
+//  console.log(gems); ---> gems = gems + colors as one list under array gems
 
 // DO NOT MODIFY
 // Used for automated testing
