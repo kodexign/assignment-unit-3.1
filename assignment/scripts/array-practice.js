@@ -147,7 +147,7 @@ console.log(sortGemsReverse);
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
 
-// notes: variable = arrayName.join(' insert what you want in between');
+// notes: variable = arrayName.join(' specified seperator');
 let gemString = gems.join(' and ');
 console.log(gemString);
 
