@@ -12,7 +12,7 @@ console.log('Animals are: ', animalArray);
 //    a message, similar to the example above.
 
 let favoriteFoods = [ 'Papaya Salad', 'Ddeokbokki', 'Khao Pia', 'Bossam', 'Jjokbal'];
-console.log('Favorite foods are: ', favoriteFoods);
+console.log('Favorite foods are:', favoriteFoods);
 
 
 // Array.length: A property that tells you how many items are in a given array.
@@ -75,7 +75,7 @@ console.log('Added an animal to end,', animalArray);
 
 let dessert = 'Brownies';
 favoriteFoods.push(dessert);
-console.table(favoriteFoods);
+console.table('food plus dessert:', favoriteFoods);
 
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
@@ -88,7 +88,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 let entree = 'Eggrolls';
 favoriteFoods.unshift(entree);
-console.log(`Add entree to beginning: ${favoriteFoods}`);
+console.log('Add entree to beginning:', entree);
 console.table(favoriteFoods);
 
 // Example: Remove the last animal by using the Array.pop method.
@@ -158,7 +158,7 @@ console.log(gemString);
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
-// notes: 
+// notes to self: 
 // merge using the- 
 //Spread Operator: variable = [... array1, ... array2];
 let colorfulGems = [...gems, ...colors];
@@ -173,8 +173,8 @@ console.log('this is concat method: ', conColorfulGems);
 let newColorfulGems = [].concat(gems, colors);
 console.log('this is the other concat form: ', newColorfulGems);
 
-//possible to do an array.push() method if
-//you want to add anarray to an existing array without creating a new array of the two combined
+//notes to self: possible to do an array.push() method if
+//you want to add an array to an existing array without creating a new array of the two combined
 //represented by (...array#)
 //  i.e: gems.push(...colors);
 //  console.log(gems); ---> gems = gems + colors as one list under array gems
